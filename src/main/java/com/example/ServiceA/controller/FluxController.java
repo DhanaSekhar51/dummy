@@ -63,7 +63,7 @@ public class FluxController {
 	@PostMapping("/message/eventCheck")
 	public String sendMessageEvent(@RequestBody Employee emp) {
 		
-		System.out.println("name....  "+emp.toString());
+		System.out.println("name.....  "+emp.toString());
 		
 		//producer.sendMessage("my-topic", String.valueOf(id));
 		
